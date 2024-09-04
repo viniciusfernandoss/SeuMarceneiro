@@ -1,0 +1,54 @@
+@import url('header.css');
+@import url('cards.css');
+@import url('case-de-sucesso.css');
+@import url('servicos.css');
+@import url('projetos.css');
+@import url('duvidas.css');
+@import url('feedback.css');
+@import url('footer.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --fonte-inter: "Inter", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-inter);
+}
+
+.linha-amarela{
+    border-bottom: 2px solid #E99F0A;
+}
+.linha-vertical{
+    border-left: 1px solid #545051;
+    border-right: 1px solid #545051;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body{
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(44, 19, 12, 1);
+    }
+    70%{
+        box-shadow: 0 0 0 25px rgba(92, 168, 44, 0);
+    }
+    100%{
+        box-shadow: rgba(92, 168, 44, 0);
+    }
+    
+}

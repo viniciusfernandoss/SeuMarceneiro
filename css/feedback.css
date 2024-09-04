@@ -1,0 +1,21 @@
+.bg-feedback{
+    background-color: #F6F6F6;
+}
+.content-feedback-card{
+    background-color: white;
+    transition: transform 0.5s ease;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.content-feedback-card:hover{
+    transform: translateY(-20px);
+}
+.info-cliente img{
+    border-radius: 100%;
+}
+.info-cliente h2{
+    line-height: 28px;
+    color: #E99F0A;
+}
+.content-feedback-card p{
+    font-size: 1.15rem;
+}

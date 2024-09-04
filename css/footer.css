@@ -1,0 +1,61 @@
+#transfome{
+    background-image: url('../img/bg-footer.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.content-transforme{
+    
+}
+
+#transfome h2{
+    font-size: 4rem;
+    font-weight: 200;
+}
+#transfome p{
+    font-size: 1.3rem;
+}
+#footer-info p{
+    font-size: 1.2rem;
+}
+#footer-info h2{
+    font-size: 2.5rem;
+}
+
+.content-transforme .btn-entre-em-contato-footer{
+    text-decoration: none;
+    color: #2C130C;
+    background-color: #E99F0A;
+    transition: 0.5s;
+}
+.content-transforme .btn-entre-em-contato-footer:hover{
+    color: #E99F0A;
+    background-color: white;
+    animation: pulse 1.5s infinite;
+}
+
+.text-footer{
+    width: 55%;
+}
+
+footer{
+    background-color: #2C130C;
+}
+
+#footer-info{
+    color: white;
+}
+
+.links-redes a{
+    text-decoration: none;
+    color: rgba(44, 19, 12, 1);
+    font-size: 13px;
+    background-color: rgba(233, 159, 10, 1);
+    border-radius: 100%;
+    padding: 4% 4.5%;
+    transition: 0.5s;
+}
+.links-redes a:hover{
+    background-color: white;
+}

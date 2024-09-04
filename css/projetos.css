@@ -1,0 +1,25 @@
+.bg-projetos{
+    background-color: #F6F6F6;
+}
+#projetos{
+    
+}
+.projetos-content{
+    background-color: white;
+    border-radius: 0 0 16px 16px;
+    transition: transform 0.5s ease;
+}
+.projetos-content:hover{
+    transform: translateY(-10px);
+}
+.projetos-content a{
+    text-decoration: none;
+    color: white;
+    background-color: #2C130C;
+    transition: 0.5s;
+}
+.projetos-content a:hover{
+    background-color: rgba(233, 159, 10, 1);
+    color: #2C130C;
+    animation: pulse 1.5s infinite;
+}

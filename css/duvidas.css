@@ -1,0 +1,30 @@
+.accordion{
+    --bs-accordion-active-bg: #fff;
+    --bs-accordion-active-color: #000;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.accordion-button.collapsed{
+    border: 1px solid #000;
+    padding: 2.5%;
+    font-size: 1.8rem;
+}
+
+.accordion-item:has(.accordion-button:not(.collapsed)){
+    border: 2px solid #E99F0A;
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+    padding: 2.5%;
+    font-size: 1.8rem;
+}
+
+.accordion-button::after{
+    background-image: url('../icons/icone-duvidas1.svg');
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url('../icons/icone-duvidas1.svg');
+}
+.accordion-body{
+    font-size: 1.3rem;
+}

@@ -1,0 +1,94 @@
+#nav-info{
+    background-color: rgba(44, 19, 12, 1);
+}
+#nav-info-contato-endereco p{
+    font-size: 12px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 1);
+}
+#nav-info-redes a{
+    text-decoration: none;
+    color: rgba(44, 19, 12, 1);
+    font-size: 13px;
+    background-color: rgba(233, 159, 10, 1);
+    border-radius: 100%;
+    padding: 0.4% 0.9%;
+    transition: 0.5s;
+}
+#nav-info-redes a:hover{
+    background-color: #e4e4e4;
+}
+
+
+
+
+
+.navbar{
+    background-color: rgba(233, 159, 10, 1);
+}
+.nav-item{
+    margin: 0 1%;
+    border-bottom: 2px solid transparent;
+    transition: 0.8s;
+}
+.nav-item:hover{
+    border-bottom: 2px solid rgba(44, 19, 12, 1);
+}
+
+#navbarNav .btn-faca-um-orcamento{
+    text-decoration: none;
+    color: rgba(233, 159, 10, 1);
+    background-color: rgba(44, 19, 12, 1);
+    animation: pulse 1.5s infinite;
+    transition: transform 0.3s ease-in-out;
+}
+#navbarNav .btn-faca-um-orcamento:hover{
+    background-color: #e4e4e4;
+    transform: scale(1.11);
+}
+
+
+
+
+
+#carouselExampleCaptions{
+    background-color: black;
+}
+.carousel-item img{
+    height: 100%;
+}
+.carousel-item{
+    height: 80vh;
+}
+.custom-caption {
+    top: 45%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+.carousel-caption h5{
+    color: white;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 80px;
+}
+.carousel-caption p{
+    width: 65%;
+    margin: 3% 0;
+    font-size: 1.5rem;
+}
+.carousel-caption .texto-inicio{
+    color: white;
+    font-weight: 400;
+    margin: 1.5% 0;
+}
+
+.btn-entre-em-contato-carousel{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #2C130C;
+    background-color: #E99F0A;
+    transition: 0.5s;
+}
+.btn-entre-em-contato-carousel:hover{
+    background-color: #e4e4e4;
+}

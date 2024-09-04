@@ -1,0 +1,19 @@
+.card-content{
+    background-color: #F6F6F6;
+}
+.card-content .bi{
+    color: #E99F0A;
+    font-size: 1.5rem;
+}
+.content-texts{
+
+}
+.content-texts h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.content-texts p{
+    color: #777777;
+    font-size: 0.75rem;
+    font-weight: normal;
+}
