@@ -17,3 +17,39 @@
     font-size: 0.75rem;
     font-weight: normal;
 }
+
+.options {
+    margin-bottom: 20px;
+}
+
+.button-galeria {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #333333;
+    border: 1px solid #333333; /* Borda inicial transparente */
+    transition: border-color 0.3s; /* Transição suave para a mudança de cor */
+}
+
+.button-galeria.active {
+    color: #E99F0A;
+    border: 2px solid #E99F0A; /* Cor da borda ao selecionar */
+}
+
+
+
+.gallery img {
+    width: 364px;
+    height: 296px;
+}
+
+.galeria-fotos{
+    
+}
+
+@media (min-width: 1920px){
+    .button-galeria {
+        font-size: 1rem;
+    }
+}

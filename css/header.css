@@ -67,14 +67,12 @@
 }
 .carousel-caption h5{
     color: white;
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 900;
-    line-height: 80px;
 }
 .carousel-caption p{
     width: 65%;
     margin: 3% 0;
-    font-size: 1.5rem;
 }
 .carousel-caption .texto-inicio{
     color: white;
@@ -91,4 +89,19 @@
 }
 .btn-entre-em-contato-carousel:hover{
     background-color: #e4e4e4;
+}
+
+
+@media (min-width: 1920px){
+    .carousel-caption h5{
+        font-size: 5rem;
+        line-height: 80px;
+    }
+    .carousel-caption p{
+        width: 65%;
+        font-size: 1.5rem;
+    }
+    .carousel-caption .texto-inicio{
+        
+    }
 }

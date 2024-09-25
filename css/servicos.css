@@ -5,3 +5,16 @@
 .content-servicos-card h3{
     font-size: 2rem;
 }
+
+#servicos a{
+    text-decoration: none;
+    color: white;
+    background-color: #2C130C;
+    transition: transform 0.3s ease-in-out;
+}
+#servicos a:hover{
+    color: #2C130C;
+    background-color: rgba(233, 159, 10, 1);
+    animation: pulse 1.5s infinite;
+    transform: scale(1.11);
+}

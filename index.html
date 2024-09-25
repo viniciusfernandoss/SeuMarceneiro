@@ -61,10 +61,10 @@
                     <a class="nav-link" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Serviços</a>
+                    <a class="nav-link" href="#">Projetos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Projetos</a>
+                    <a class="nav-link" href="#">Serviços</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Perguntas</a>
@@ -142,7 +142,7 @@
                         >
                         <div class="carousel-caption d-none d-lg-block text-start custom-caption"> 
                             <h5>
-                                Dedicação e Excelência em Cada Projeto
+                                Dedicação e Excelência<br> em Cada Projeto
                             </h5>
                             <p class="texto-inicio">
                                 O amor pelo nosso trabalho se reflete em cada peça que criamos.
@@ -300,47 +300,21 @@
                             Cards
         =====================================================
         -->
-        <div class="container-fluid my-5">
-            <div class="row">
-                <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end my-4 my-lg-0">
-                    <div class="card-content d-flex w-75 py-4 ps-3 pe-4 rounded-3">
-                        <i class="bi bi-person-standing"></i>
-                        <div class="content-texts ms-3">
-                            <h2>
-                                Profissionais experientes
-                            </h2>
-                            <p>
-                                Na Meu Marceneiro, contamos com uma equipe de profissionais altamente experientes, que dominam cada detalhe do trabalho em madeira. Com anos de prática e dedicação, transformamos suas ideias em peças únicas, feitas sob medida para sua casa ou empresa. Confie em quem entende e valoriza a arte da marcenaria.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 d-flex justify-content-center my-4 my-lg-0">
-                    <div class="card-content d-flex w-75 py-4 ps-3 pe-4 rounded-3">
-                        <i class="bi bi-person-standing"></i>
-                        <div class="content-texts ms-3">
-                            <h2>
-                                Profissionais experientes
-                            </h2>
-                            <p>
-                                Na Meu Marceneiro, contamos com uma equipe de profissionais altamente experientes, que dominam cada detalhe do trabalho em madeira. Com anos de prática e dedicação, transformamos suas ideias em peças únicas, feitas sob medida para sua casa ou empresa. Confie em quem entende e valoriza a arte da marcenaria.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 d-flex justify-content-center justify-content-lg-start my-4 my-lg-0">
-                    <div class="card-content d-flex w-75 py-4 ps-3 pe-4 rounded-3">
-                        <i class="bi bi-person-standing"></i>
-                        <div class="content-texts ms-3">
-                            <h2>
-                                Profissionais experientes
-                            </h2>
-                            <p>
-                                Na Meu Marceneiro, contamos com uma equipe de profissionais altamente experientes, que dominam cada detalhe do trabalho em madeira. Com anos de prática e dedicação, transformamos suas ideias em peças únicas, feitas sob medida para sua casa ou empresa. Confie em quem entende e valoriza a arte da marcenaria.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+        <div class="container py-5 my-5">
+            <h2 class="text-center">
+                <span class="linha-amarela">Pr</span>ojetos
+            </h2>
+            <div class="options text-center row justify-content-center">
+                <button class="button-galeria active rounded-3 col-12 col-lg-1" onclick="changeTheme('nature', this)">Planejados</button>
+                <button class="button-galeria rounded-3 col-12 col-lg-1" onclick="changeTheme('tecnologia', this)">Reparos</button>
+                <button class="button-galeria rounded-3 col-12 col-lg-1" onclick="changeTheme('esportes', this)">Estantes</button>
+                <button class="button-galeria rounded-3 col-12 col-lg-1" onclick="changeTheme('arte', this)">Painés</button>
+                <button class="button-galeria rounded-3 col-12 col-lg-1" onclick="changeTheme('cidades', this)">Montagem</button>
+            </div>
+            <div class="gallery row justify-content-center">
+                <img id="img1" class="galeria-fotos col-12 col-lg-4" src="img/foto4.png" alt="Imagem 1">
+                <img id="img2" class="galeria-fotos col-12 col-lg-4" src="img/foto5.png" alt="Imagem 2">
+                <img id="img3" class="galeria-fotos col-12 col-lg-4" src="img/foto6.png" alt="Imagem 3">
             </div>
         </div>
         <!-- 
@@ -367,7 +341,7 @@
                             Servicos
         =====================================================
         -->
-        <div class="container-fluid  mt-5">
+        <div class="container-fluid  mt-5" id="servicos">
             <h2 class="text-center">
                 <span class="linha-amarela">No</span>ssos Serviços
             </h2>
@@ -439,65 +413,16 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- 
-        =====================================================
-                            Projetos
-        =====================================================
-        -->
-        <div class="bg-projetos">
-            <div class="container p-0 py-5" id="projetos">
-                <h2 class="text-center pb-5">
-                    <span class="linha-amarela">Pr</span>ojetos
-                </h2>
-                <div class="row d-flex justify-content-center">
-                    <div class="col-lg-2">
-                        <div class="projetos-content pb-4 text-center">
-                            <img src="img/img-projetoA.png" alt="Projetos" class="img-fluid">
-                            <h5 class="mt-3">
-                                Projeto A
-                            </h5>
-                            <a class="py-1 px-4 rounded-5" href="#">
-                                Ver mais
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="projetos-content pb-4 text-center">
-                            <img src="img/img-projetoB.png" alt="Projetos" class="img-fluid">
-                            <h5 class="mt-3">
-                                Projeto B
-                            </h5>
-                            <a class="py-1 px-4 rounded-5" href="#">
-                                Ver mais
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="projetos-content pb-4 text-center">
-                            <img src="img/img-projetoC.png" alt="Projetos" class="img-fluid">
-                            <h5 class="mt-3">
-                                Projeto C
-                            </h5>
-                            <a class="py-1 px-4 rounded-5" href="#">
-                                Ver mais
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="projetos-content pb-4 text-center">
-                            <img src="img/img-projetoD.png" alt="Projetos" class="img-fluid">
-                            <h5 class="mt-3">
-                                Projeto D
-                            </h5>
-                            <a class="py-1 px-4 rounded-5" href="#">
-                                Ver mais
-                            </a>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a class="py-2 px-4 mb-5 rounded-5" href="#">
+                        <i class="bi bi-whatsapp"></i>
+                        Faça um orçamento
+                    </a>
                 </div>
             </div>
-        </div> 
+        </div>
+        
         <!-- 
         =====================================================
                             Duvidas
@@ -619,7 +544,7 @@
                     <span class="linha-amarela">De</span>poimentos dos Clientes
                 </h2>
                 <div class="row justify-content-center">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 mb-5 mb-lg-0">
                         <div class="content-feedback-card rounded-4 p-3">
                             <div class="info-cliente d-flex align-items-center justify-content-evenly mb-3">
                                 <img src="img/foto-cliente1.png" alt="Foto Cliente">
@@ -632,7 +557,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 mb-5 mb-lg-0">
                         <div class="content-feedback-card rounded-4 p-3">
                             <div class="info-cliente d-flex align-items-center justify-content-evenly mb-3">
                                 <img src="img/foto-cliente2.png" alt="Foto Cliente">
@@ -645,7 +570,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 mb-5 mb-lg-0">
                         <div class="content-feedback-card rounded-4 p-3">
                             <div class="info-cliente d-flex align-items-center justify-content-evenly mb-3">
                                 <img src="img/foto-cliente3.png" alt="Foto Cliente">
@@ -697,38 +622,42 @@
                     </p>
                 </div>
                 <div class="col-lg-6 d-flex mt-4 mt-lg-0">
-                    <div class="endereco">
-                        <h2>
-                            <span class="linha-amarela">End</span>ereço
-                        </h2>
-                        <p class="mt-4">
-                            <img src="icons/nav-info-icon-endereco.png" alt="Endereço">
-                            Rua X, N°1000, Recife, Pernambuco
-                        </p>
-                    </div>
-                    <div class="contato mx-5">
-                        <h2>
-                            <span class="linha-amarela">Con</span>tato
-                        </h2>
-                        <p class="mt-4">
-                            <img src="icons/nav-info-icon-contato.png" alt="Contato">
-                            (81) x xxxx-xxxx
-                        </p>
-                    </div>
-                    <div class="redes-sociais">
-                        <h2>
-                            <span class="linha-amarela">Red</span>es Sociais
-                        </h2>
-                        <div class="links-redes mt-4">
-                            <a href="#">
-                                <i class="bi bi-instagram"></i>
-                            </a>
-                            <a href="#" class="mx-2">
-                                <i class="bi bi-facebook"></i>
-                            </a>
-                            <a href="#">
-                                <i class="bi bi-whatsapp"></i>
-                            </a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="endereco col-12 col-lg-4">
+                                <h2>
+                                    <span class="linha-amarela">End</span>ereço
+                                </h2>
+                                <p class="mt-4">
+                                    <img src="icons/nav-info-icon-endereco.png" alt="Endereço">
+                                    Rua X, N°1000, Recife, Pernambuco
+                                </p>
+                            </div>
+                            <div class="contato col-12 col-lg-4">
+                                <h2>
+                                    <span class="linha-amarela">Con</span>tato
+                                </h2>
+                                <p class="mt-4">
+                                    <img src="icons/nav-info-icon-contato.png" alt="Contato">
+                                    (81) x xxxx-xxxx
+                                </p>
+                            </div>
+                            <div class="redes-sociais col-12 col-lg-4">
+                                <h2>
+                                    <span class="linha-amarela">Red</span>es Sociais
+                                </h2>
+                                <div class="links-redes mt-4">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                    <a href="#" class="mx-2">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
