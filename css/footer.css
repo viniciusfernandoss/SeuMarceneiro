@@ -10,7 +10,6 @@
 }
 
 #transfome h2{
-    font-size: 4rem;
     font-weight: 200;
 }
 #transfome p{
@@ -33,6 +32,9 @@
     color: #E99F0A;
     background-color: white;
     animation: pulse 1.5s infinite;
+}
+.content-transforme h2{
+    font-size: 2.5rem;
 }
 
 .text-footer{
@@ -63,6 +65,9 @@ footer{
 
 @media (min-width: 1920px){
     #footer-info h2{
-    font-size: 2.5rem;
-}
+        font-size: 2.5rem;
+    }
+    .content-transforme h2{
+        font-size: 4rem;
+    }
 }
