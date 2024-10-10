@@ -101,7 +101,17 @@
         width: 65%;
         font-size: 1.5rem;
     }
-    .carousel-caption .texto-inicio{
-        
+}
+
+@media (max-width: 576px){
+    .carousel-caption h5{
+        font-size: 2.5rem;
+    }
+    .carousel-caption p{
+        width: 100%;
+        margin: 3% 0;
+    }
+    .carousel-item{
+        height: 60vh;
     }
 }
