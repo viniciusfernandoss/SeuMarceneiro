@@ -8,29 +8,29 @@ function changeTheme(theme, button) {
 
     let images = {
         nature: [
-            'img/foto4.png',
-            'img/foto1.png',
-            'img/foto2.png'
+            'img/foto4.webp',
+            'img/foto1.webp',
+            'img/foto2.webp'
         ],
         tecnologia: [
-            'img/foto5.png',
-            'img/foto3.png',
-            'img/foto6.png'
+            'img/foto5.webp',
+            'img/foto3.webp',
+            'img/foto6.webp'
         ],
         esportes: [
-            'img/foto1.png',
-            'img/foto4.png',
-            'img/foto7.png'
+            'img/foto1.webp',
+            'img/foto4.webp',
+            'img/foto7.webp'
         ],
         arte: [
-            'img/foto9.png',
-            'img/foto8.png',
-            'img/foto6.png'
+            'img/foto9.webp',
+            'img/foto8.webp',
+            'img/foto6.webp'
         ],
         cidades: [
-            'img/foto7.png',
-            'img/foto5.png',
-            'img/foto1.png'
+            'img/foto7.webp',
+            'img/foto5.webp',
+            'img/foto1.webp'
         ]  
     };
 
@@ -38,3 +38,36 @@ function changeTheme(theme, button) {
     document.getElementById('img2').src = images[theme][1];
     document.getElementById('img3').src = images[theme][2];
 }
+
+
+//Convidados mobile
+const swiper = new Swiper('.slider-wrapper', {
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 30,
+  
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true
+    },
+  
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    breakpoints: {
+        0: {
+            slidesPerView: 1
+        },
+        992: {
+            slidesPerView: 2
+        },
+        1024: {
+            slidesPerView: 3
+        }
+    }
+});
