@@ -94,18 +94,18 @@
 
 @media (min-width: 1920px){
     .carousel-caption h5{
-        font-size: 5rem;
+        font-size: 4rem;
         line-height: 80px;
     }
     .carousel-caption p{
         width: 65%;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 }
 
 @media (max-width: 576px){
     .carousel-caption h5{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .carousel-caption p{
         width: 100%;
@@ -113,5 +113,10 @@
     }
     .carousel-item{
         height: 60vh;
+    }
+    .custom-caption {
+        top: 37%;
+        left: 10%;
+        transform: translateY(-50%);
     }
 }
