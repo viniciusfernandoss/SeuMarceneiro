@@ -49,6 +49,10 @@ footer{
     color: white;
 }
 
+.links-redes-footer .bi{
+     font-size: 1rem;
+}
+
 .links-redes a{
     text-decoration: none;
     color: rgba(44, 19, 12, 1);

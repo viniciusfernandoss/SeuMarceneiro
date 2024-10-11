@@ -19,3 +19,20 @@
 .content-feedback-card p{
     font-size: 1.15rem;
 }
+
+
+.content-feedback-card-mobile{
+    background-color: white;
+    transition: transform 0.5s ease;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.card-feedback{
+    margin-bottom: 15%;
+}
+
+.swiper-slide-feedback{
+    width: calc(100% - 40px); /* Para permitir que a metade do próximo slide apareça */
+    margin-right: 20px; /* Espaçamento entre os slides */
+}

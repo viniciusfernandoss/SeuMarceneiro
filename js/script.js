@@ -41,33 +41,63 @@ function changeTheme(theme, button) {
 
 
 //Convidados mobile
-const swiper = new Swiper('.slider-wrapper', {
-    loop: true,
-    grabCursor: true,
-    spaceBetween: 30,
+// const swiper = new Swiper('.slider-wrapper', {
+//     loop: true,
+//     grabCursor: true,
+//     spaceBetween: 30,
   
-    // If we need pagination
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        dynamicBullets: true
-    },
+//     // If we need pagination
+//     pagination: {
+//         el: '.swiper-pagination',
+//         clickable: true,
+//         dynamicBullets: true
+//     },
   
-    // Navigation arrows
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
+//     // Navigation arrows
+//     navigation: {
+//         nextEl: '.swiper-button-next',
+//         prevEl: '.swiper-button-prev',
+//     },
 
+//     breakpoints: {
+//         0: {
+//             slidesPerView: 1
+//         },
+//         992: {
+//             slidesPerView: 2
+//         },
+//         1024: {
+//             slidesPerView: 3
+//         }
+//     }
+// });
+
+const swiperOne = new Swiper('.swiper-servicos-mobile', {
     breakpoints: {
-        0: {
-            slidesPerView: 1
-        },
-        992: {
-            slidesPerView: 2
-        },
-        1024: {
-            slidesPerView: 3
-        }
-    }
+             0: {
+                 slidesPerView: 1
+             },
+             992: {
+                 slidesPerView: 2
+             },
+             1024: {
+                 slidesPerView: 3
+             }
+    },
+    spaceBetween: 30, // Espaço entre os slides
+    loop: true,
+    pagination: {
+      el: '.swiper-servicos-mobile .swiper-pagination',
+      clickable: true,
+    },
+});
+
+const swiperTwo = new Swiper('.swiper-feedback-mobile', {
+    slidesPerView: 1.5, // Exibe 1 card completo e metade do próximo
+    spaceBetween: 20, // Espaço entre os slides
+    loop: true,
+    pagination: {
+      el: '.swiper-feedback-mobile .swiper-pagination',
+      clickable: true,
+    },
 });
