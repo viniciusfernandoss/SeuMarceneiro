@@ -84,6 +84,10 @@ const swiperOne = new Swiper('.swiper-servicos-mobile', {
                  slidesPerView: 3
              }
     },
+    navigation: {
+        nextEl: '.swiper-servicos-mobile .swiper-button-next',
+        prevEl: '.swiper-servicos-mobile .swiper-button-prev',
+    },
     spaceBetween: 30, // Espaço entre os slides
     loop: true,
     pagination: {
@@ -93,9 +97,13 @@ const swiperOne = new Swiper('.swiper-servicos-mobile', {
 });
 
 const swiperTwo = new Swiper('.swiper-feedback-mobile', {
-    slidesPerView: 1.5, // Exibe 1 card completo e metade do próximo
+    slidesPerView: 1, // Exibe 1 card completo e metade do próximo
     spaceBetween: 20, // Espaço entre os slides
     loop: true,
+    navigation: {
+        nextEl: '.swiper-feedback-mobile .swiper-button-next',
+        prevEl: '.swiper-feedback-mobile .swiper-button-prev',
+    },
     pagination: {
       el: '.swiper-feedback-mobile .swiper-pagination',
       clickable: true,

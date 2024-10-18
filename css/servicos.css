@@ -45,3 +45,21 @@
 .swiper-pagination {
     margin-bottom: 0px; /* Ajuste o valor conforme necessário */
 }
+
+/* Modificar o tamanho dos botões */
+.swiper-button-next, .swiper-button-prev {
+    width: 50px;   /* Largura */
+    height: 50px;  /* Altura */
+    color: #E99F0A;   /* Cor do ícone */
+    font-size: 24px; /* Tamanho da fonte, para ícones */
+}
+
+/* Modificar o tamanho do ícone */
+.swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 30px; /* Tamanho do ícone (seta) */
+}
+
+/* Alterar cor ao passar o mouse (hover) */
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    color: #000;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Marceneiro</title>
+    <title>Seu Marceneiro</title>
     <link rel="shortcut icon" href="icons/icon-fav-logo.png" type="image/x-icon">
 
     <!-- Link Bootstrap -->
@@ -53,7 +53,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
               <a class="navbar-brand" href="#">
-                <img src="img/meu-marceneiro-logo.svg" class="w-50" alt="Logo">
+                <img src="img/meu-marceneiro-logo.webp" class="w-50" alt="Logo">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -308,11 +308,11 @@
                 <span class="linha-amarela">Pr</span>ojetos
             </h2>
             <div class="options text-center row justify-content-center">
-                <button class="button-galeria active rounded-3 col-6 col-lg-1" onclick="changeTheme('nature', this)">Planejados</button>
-                <button class="button-galeria rounded-3 col-6 col-lg-1" onclick="changeTheme('tecnologia', this)">Reparos</button>
-                <button class="button-galeria rounded-3 col-6 col-lg-1" onclick="changeTheme('esportes', this)">Estantes</button>
-                <button class="button-galeria rounded-3 col-6 col-lg-1" onclick="changeTheme('arte', this)">Painés</button>
-                <button class="button-galeria rounded-3 col-6 col-lg-1" onclick="changeTheme('cidades', this)">Montagem</button>
+                <button class="button-galeria active rounded-3 col-9 col-lg-1" onclick="changeTheme('nature', this)">Planejados</button>
+                <button class="button-galeria rounded-3 col-9 col-lg-1" onclick="changeTheme('tecnologia', this)">Reparos</button>
+                <button class="button-galeria rounded-3 col-9 col-lg-1" onclick="changeTheme('esportes', this)">Estantes</button>
+                <button class="button-galeria rounded-3 col-9 col-lg-1" onclick="changeTheme('arte', this)">Painés</button>
+                <button class="button-galeria rounded-3 col-9 col-lg-1" onclick="changeTheme('cidades', this)">Montagem</button>
             </div>
             <div class="gallery row justify-content-center">
                 <img id="img1" class="galeria-fotos col-12 col-lg-4 mb-4 mb-lg-0" src="img/foto4.webp" alt="Imagem 1">
@@ -329,11 +329,18 @@
             <h2>
                 <span class="linha-amarela">Tra</span>sformamos o seu Ambiente!
             </h2>
-            <div class="row my-3 mx-0">
+            <div class="row d-none d-lg-block my-3 mx-0">
                 <div class="col-12 px-0">
                     <img class="img-fluid" src="img/img-case-de-sucesso.webp" alt="Case de Sucesso">
                 </div>
             </div>
+            <div class="row d-block d-lg-none my-3 mx-0">
+                <div class="col-12 px-0">
+                    <img class="w-100" src="img/img-case-de-sucesso-mobile.webp" alt="Case de Sucesso">
+                </div>
+            </div>
+
+            
             <a class="py-2 px-4 mb-5 rounded-5" href="#">
                 <i class="bi bi-whatsapp"></i>
                 Faça um orçamento
@@ -504,11 +511,11 @@
                 </div>
             </div> -->
 
-            <div class="container my-5 d-block d-lg-none">
+            <div class="container-fluid my-5 d-block d-lg-none">
                 <div class="swiper swiper-servicos-mobile">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide card-feedback">
-                            <div class="content-servicos-card text-center">
+                            <div class="content-servicos-card text-center px-5">
                                 <img src="icons/icone-servicos1.png" alt="Icone">
                                 <h3 class="my-3">
                                     Móveis Planejados
@@ -519,7 +526,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide card-feedback">
-                            <div class="content-servicos-card text-center">
+                            <div class="content-servicos-card text-center px-5">
                                 <img src="icons/icone-servicos2.png" alt="Icone">
                                 <h3 class="my-3">
                                     Reparos e Restauração
@@ -530,7 +537,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide card-feedback">
-                            <div class="content-servicos-card text-center">
+                            <div class="content-servicos-card text-center px-5">
                                 <img src="icons/icone-servicos3.png" alt="Icone">
                                 <h3 class="my-3">
                                     Montagem de Móveis
@@ -541,7 +548,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide card-feedback">
-                            <div class="content-servicos-card text-center">
+                            <div class="content-servicos-card text-center px-5">
                                 <img src="icons/icone-servicos4.png" alt="Icone">
                                 <h3 class="my-3">
                                     Instalação de Portas e Janelas
@@ -552,7 +559,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide card-feedback">
-                            <div class="content-servicos-card text-center">
+                            <div class="content-servicos-card text-center px-5">
                                 <img src="icons/icone-servicos5.png" alt="Icone">
                                 <h3 class="my-3">
                                     Prateleiras e Estantes Sob Medida
@@ -563,7 +570,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide card-feedback">
-                            <div class="content-servicos-card text-center">
+                            <div class="content-servicos-card text-center px-5">
                                 <img src="icons/icone-servicos6.png" alt="Icone">
                                 <h3 class="my-3">
                                     Painéis e Revestimentos em Madeira
@@ -575,6 +582,8 @@
                         </div>
                     </div>
 
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
@@ -704,7 +713,7 @@
                             Feedback
         =====================================================
         -->
-        <div class="bg-feedback" id="depoimentos">
+        <div class="bg-feedback py-5" id="depoimentos">
             <h2 class="text-center mt-3 mb-0">
                 <span class="linha-amarela">De</span>poimentos dos Clientes
             </h2>
@@ -757,7 +766,7 @@
                 <div class="swiper swiper-feedback-mobile">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide card-feedback">
-                            <div class="content-feedback-card-mobile rounded-4 p-3">
+                            <div class="content-feedback-card-mobile rounded-4 p-3 mx-5">
                                 <div class="info-cliente d-flex align-items-center justify-content-evenly mb-3">
                                     <img src="img/foto-cliente1.webp" alt="Foto Cliente">
                                     <h2>
@@ -770,7 +779,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide card-feedback">
-                            <div class="content-feedback-card-mobile rounded-4 p-3">
+                            <div class="content-feedback-card-mobile rounded-4 p-3 mx-5">
                                 <div class="info-cliente d-flex align-items-center justify-content-evenly mb-3">
                                     <img src="img/foto-cliente2.webp" alt="Foto Cliente">
                                     <h2>
@@ -783,7 +792,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide card-feedback">
-                            <div class="content-feedback-card-mobile rounded-4 p-3">
+                            <div class="content-feedback-card-mobile rounded-4 p-3 mx-5">
                                 <div class="info-cliente d-flex align-items-center justify-content-evenly mb-3">
                                     <img src="img/foto-cliente3.webp" alt="Foto Cliente">
                                     <h2>
@@ -797,6 +806,8 @@
                         </div>
                     </div>
         
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
@@ -817,7 +828,7 @@
                         Transforme suas<br> ideias em realidade!
                     </h2>
                     <p class="text-footer py-3">
-                        Aprimore o acabamento da sua casa! Na Meu Marceneiro, cuidamos de cada etapa, desde a medição até os ajustes finais, garantindo um encaixe perfeito.
+                        Aprimore o acabamento da sua casa! Na Seu Marceneiro, cuidamos de cada etapa, desde a medição até os ajustes finais, garantindo um encaixe perfeito.
                     </p>
                     <a href="#" class="btn-entre-em-contato-footer py-2 px-4 rounded-5">
                         <i class="bi bi-whatsapp"></i>
@@ -881,7 +892,7 @@
                 <div class="col-lg-6 text-center">
                     <img src="img/logo-footer.webp" alt="Logo-footer">
                     <p class="mt-3">
-                        © Copyright 2024 - Meu Marceneiro<br>
+                        © Copyright 2024 - Seu Marceneiro<br>
                         Todos os direitos reservados.
                     </p>
                 </div>
